@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="text-center mt-12">
+        <h2 id="number" class="text-9xl mb-5 font-bold">0</h2>
+        <div class="space-x-5">
+            <button id="start-btn" onclick="startWatch()" class="btn text-xl font-semibold btn-info text-white">Start</button>
+            <button id="stop-btn" class="btn text-xl font-semibold btn-info text-white">Stop</button>
+            <button id="reset-btn" onclick="resetWatch()" class="btn text-xl font-semibold btn-info text-white">Reset</button>
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="scripts/stopWatch.js"></script>
+</body>
+
+</html>
